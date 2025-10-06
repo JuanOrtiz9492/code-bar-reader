@@ -1,4 +1,4 @@
-FROM node:22.15.1-alpine3.20 AS build
+FROM node:22.15.1-slim AS build
 
 WORKDIR /app
 #ENV NODE_ENV production
